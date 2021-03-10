@@ -110,6 +110,107 @@ a {
     top: -120px;
 }
 
+/* MAIN */
+
+#main-heading-container {
+    margin: 0px 5%;
+}
+
+#main-heading-one {
+    font-family: 'ceraprobold';
+    font-size: 36px;
+    color: #880F52;
+}
+
+#main-heading-para {
+    font-family: 'ceraprolight';
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+}
+
+/* MAIN HEADING TWO */
+
+#main-heading-two-container {
+    margin: 0px 5%;
+}
+
+#main-heading-two-box {
+    width: 170px;
+    height: 250px;
+    background-color: #FEEBF1;
+    position: absolute;
+    left: 30%;
+}
+
+.main-heading-two {
+    font-family: 'ceraprobold';
+    font-size: 80px;
+    font-weight: bold;
+    color: #880F52;
+    z-index: 3;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.main-heading-two-para {
+    font-family: 'ceraprolight';
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+    position: absolute;
+    margin-top: 35%;
+    width: 80%;
+}
+
+#main-heading-two-mainContainer {
+    position: absolute;
+    margin: 0px 5%;
+    margin-top: 50%;
+}
+
+.main-heading-three-para {
+    width: 250px;
+    margin-top: 100px;
+}
+
+#mars-moon-img-div {
+    background-color: #F6104E;
+    position: absolute;
+}
+
+#mars-moon-img {
+    opacity: 0.4;
+}
+
+#mars-mount-img {
+    opacity: 0.4;
+}
+
+#main-mountain-container {
+    display: block;
+    margin-bottom: 500px;
+}
+
+#mars-mountain-img-div {
+    background-color: #25e70c;
+    position: absolute;
+}
+
+#mars-mountain-img {
+    opacity: 0.6;
+}
+
+#mars-mountain-img {
+    position: absolute;
+    width: 320px;
+    height: 360px;
+    object-fit: cover;
+}
+
+#main-heading-two-mountain-container {
+    /* margin: 0px 5%; */
+    /* position: absolute; */
+}
+
 @media screen and (min-width: 1000px) {
     #header-img {
         width: 100%;
@@ -145,6 +246,124 @@ a {
         left: 38%;
     }
 
+    /* MAIN */
+
+    #main-heading-container {
+        margin: 0px 5%;
+        position: relative;
+        top: -60px;
+    }
+
+    #main-heading-para {
+        width: 60%;
+    }
+
+    /* MAIN HEADING TWO */
+
+    #main-heading-two-container {
+        margin: 0px 5%;
+        position: absolute;
+    }
+
+    #main-heading-two-box {
+        width: 170px;
+        height: 250px;
+        background-color: #FEEBF1;
+        position: absolute;
+        left: 1000px;
+    }
+
+    .main-heading-two {
+        font-family: 'ceraprobold';
+        font-size: 80px;
+        font-weight: bold;
+        color: #880F52;
+        z-index: 3;
+        position: absolute;
+        top: 50px;
+        left: 900px;
+    }
+
+    .main-heading-two-para {
+        font-family: 'ceraprolight';
+        font-size: 18px;
+        color: rgb(108, 108, 108);
+        position: absolute;
+        top: 150px;
+        left: 900px;
+        width: 300px;
+    }
+
+    #main-heading-two-mainContainer {
+        margin-top: 20%;
+    }
+
+    .main-heading-three-para {
+        width: 250px;
+        margin-top: 0px;
+        color: #fff;
+    }
+
+    #mars-moon-img-div {
+        position: absolute;
+        left: 850px;
+    }
+
+    #mars-mountain-img-div {
+        background-color: #f68b10;
+        left: 850px;
+    }
+
+    #mars-moon-img {
+        opacity: 0.4;
+        width: 470px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    #mars-mount-img {
+        opacity: 0.6;
+        width: 320px;
+        height: 360px;
+        object-fit: cover;
+    }
+
+    #mars-mountain-img {
+        opacity: 0.4;
+        width: 470px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .moon-header {
+        color: #fff;
+    }
+
+    #main-mountain-container {
+        position: absolute;
+        right: 800px;
+        top: -200px;
+    }
+
+    #main-heading-two-mountain-container {
+        margin-top: 25px;
+    }
+
+    .mountain-header {
+        margin-left: 50px;
+    }
+
+    .mountain-para {
+        margin-left: 50px;
+    }
+
+    #mars-moon-img-div {
+        background-color: #FC0040;
+    }
+
+    #mars-mountain-img-div {
+        background-color: #fc8600;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -171,6 +390,41 @@ a {
         position: relative;
         top: -320px;
     } */
+
+    /* MAIN */
+
+    #main-heading-container {
+        margin: 0px 5%;
+        position: relative;
+        top: -60px;
+    }
+
+    #main-heading-para {
+        width: 80%;
+    }
+
+    .moon-header {
+        color: #fff;
+    }
+
+    .main-heading-three-para {
+        color: #fff;
+    }
+
+    #main-heading-two-container {
+        margin: 20px;
+    }
+
+    #main-heading-two-mountain-container {
+        margin: 20px;
+    }
+
+    #mars-mount-img {
+        width: 320px;
+        height: 360px;
+        object-fit: cover;
+        opacity: 0.6;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -222,6 +476,97 @@ a {
         position: relative;
         top: -150px;
     }
+
+    /* MAIN */
+
+    #main-heading-container {
+        margin: 0px 5%;
+        position: relative;
+        top: 0px;
+    }
+
+    #main-heading-one {
+        font-family: 'ceraprobold';
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        left: -3%;
+    }
+
+    #main-heading-para {
+        font-family: 'ceraprolight';
+    }
+
+    #main-heading-para-hidden {
+        display: none;
+    }
+
+    /* MAIN HEADING TWO */
+
+    #main-heading-two-container {
+        margin: 0px 5%;
+        position: static;
+    }
+
+    #main-mountain-container {
+        display: none;
+    }
+
+    #main-heading-two-box {
+        width: 170px;
+        height: 250px;
+        background-color: #FEEBF1;
+        position: absolute;
+        left: 30%;
+    }
+
+    .main-heading-two {
+        font-family: 'ceraprobold';
+        font-size: 80px;
+        font-weight: bold;
+        color: #880F52;
+        z-index: 3;
+        position: absolute;
+        margin-top: 10%;
+    }
+
+    .main-heading-two-para {
+        font-family: 'ceraprolight';
+        font-size: 18px;
+        color: rgb(108, 108, 108);
+        position: absolute;
+        margin-top: 35%;
+    }
+
+    #main-heading-two-mainContainer {
+        position: absolute;
+        margin-top: 70%;
+    }
+
+    .main-heading-three-para {
+        width: 250px;
+        margin-top: 100px;
+    }  
+    
+    #mars-moon-img-div {
+       display: none;
+    }
+   
+    #mars-moon-img {
+       display: none;
+    }
+
+    #mars-mount-img {
+        display: none;
+    }
+
+    #mars-mountain-img-div {
+        display: none;
+    }
+
+    #main-heading-two-mountain-container {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) { 
@@ -242,6 +587,95 @@ a {
         width: 100%;
         position: relative;
         top: -20px;
+    }
+
+    /* MAIN */
+
+    #main-heading-container {
+        margin: 0px 5%;
+        position: relative;
+        top: 0px;
+    }
+
+    #main-heading-one {
+        font-family: 'ceraprobold';
+        text-align: center;
+        font-size: 38px;
+    }
+
+    #main-heading-para {
+        font-family: 'ceraprolight';
+    }
+
+    #main-heading-para-hidden {
+        display: none;
+    }
+
+    /* MAIN HEADING TWO */
+
+    #main-heading-two-container {
+        margin: 0px 5%;
+        position: static;
+    }
+
+    #main-heading-two-box {
+        width: 170px;
+        height: 250px;
+        background-color: #FEEBF1;
+        position: absolute;
+        left: 30%;
+    }
+
+    .main-heading-two {
+        font-family: 'ceraprobold';
+        font-size: 80px;
+        font-weight: bold;
+        color: #880F52;
+        z-index: 3;
+        position: absolute;
+        margin-top: 10%;
+    }
+
+    .main-heading-two-para {
+        font-family: 'ceraprolight';
+        font-size: 18px;
+        color: rgb(108, 108, 108);
+        position: absolute;
+        margin-top: 35%;
+    }
+
+    #main-heading-two-mainContainer {
+        position: absolute;
+        margin-top: 70%;
+    }
+
+    .main-heading-three-para {
+        width: 250px;
+        margin-top: 100px;
+    }
+
+    #mars-moon-img-div {
+       display: none;
+    }
+   
+    #mars-moon-img {
+       display: none;
+    } 
+
+    #mars-mount-img {
+        display: none;
+    }
+
+    #mars-mountain-img-div {
+        display: none;
+    }
+
+    #main-heading-two-mountain-container {
+        display: none;
+    }
+
+    #main-mountain-container {
+        display: none;
     }
 }
 
