@@ -275,6 +275,38 @@ a {
     width: 80%;
 }
 
+/* Astronaut */
+
+#astronaut-img-div {
+
+}
+
+#astronaut-img {
+
+}
+
+#mars-planet {
+    position: absolute;
+    left: 60%;
+    margin-top: -20%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #FC0040;
+}
+
+#mars-planet-para {
+    color: #fff;
+    font-family: "ceraproblack";
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#earth-planet {
+    display: none;
+}
+
 @media screen and (min-width: 1000px) {
     #header-img {
         width: 100%;
@@ -490,6 +522,42 @@ a {
 
     #ticket-img {
         width: 80%;
+    }
+
+    #mars-planet {
+        position: absolute;
+        left: 30%;
+        margin-top: -13%;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: #FC0040;
+    }
+
+    #mars-planet-para {
+        color: #fff;
+        font-family: "ceraproblack";
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+
+    #earth-planet {
+        position: absolute;
+        right: 15%;
+        margin-top: -33%;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background-color: #FC0040;
+    }
+
+    #earth-planet-para {
+        color: #fff;
+        font-family: "ceraproblack";
+        text-align: center;
+        position: relative;
+        top: 60px;
     }
 }
 
@@ -765,6 +833,36 @@ a {
         width: 80%;
     }
 
+    #astronaut-img-div {
+        margin-top: 30%;
+    }
+
+    #astronaut-img {
+        width: 70%;   
+    }
+
+    #mars-planet {
+        position: absolute;
+        right: 5%;
+        margin-top: -33%;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: #FC0040;
+    }
+
+    #mars-planet-para {
+        color: #fff;
+        font-family: "ceraproblack";
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+
+    #earth-planet {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 400px) { 
@@ -885,6 +983,80 @@ a {
     }
 
     #main-heading-four {
+        display: none;
+    }
+
+    /* SECTION */
+
+    #vertical-spacing {
+        margin-top: 120%;
+    } 
+
+    #section-heading-one {
+        font-family: "ceraprobold";
+        font-size: 32px;
+    }
+
+    #section-heading-para {
+        font-family: 'ceraprolight';
+        font-size: 18px;
+        color: rgb(108, 108, 108);
+        width: 95%;
+    }
+
+    #button-ticket-div {
+        text-align: center;
+        margin-left: 4px;
+    }
+
+    #button-ticket {
+        background-image: linear-gradient(to right, #B8036A , #FC0040);
+        border: none;
+        font-family: "ceraprolight";
+        color: #fff;
+        font-size: 18px;
+        padding: 2%;
+        width: 92%;
+
+        margin-bottom: 50px;
+    }
+
+    #ticket-img-div {
+        position: absolute;
+        left: 4%;
+    }
+
+    #ticket-img {
+        width: 80%;
+    }
+
+    #astronaut-img-div {
+        margin-top: 30%;
+    }
+
+    #astronaut-img {
+        width: 70%;   
+    }
+
+    #mars-planet {
+        position: absolute;
+        right: 5%;
+        margin-top: -33%;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background-color: #FC0040;
+    }
+
+    #mars-planet-para {
+        color: #fff;
+        font-family: "ceraproblack";
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+
+    #earth-planet {
         display: none;
     }
 }
