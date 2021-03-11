@@ -46,7 +46,7 @@ a {
 /* IMAGE */
 
 #header-img-div {
-      background-image: linear-gradient(to right, #B8036A , #FC0040);
+    background-image: linear-gradient(to right, #B8036A , #FC0040);
 }
 
 #header-img {
@@ -225,6 +225,56 @@ a {
     left: -630px;
 }
 
+/* SECTION */
+
+#vertical-spacing {
+    margin-top: 1450px;
+} 
+
+#section-main-container {
+    margin: 5%;
+}
+
+#section-heading-one {
+    font-family: "ceraprobold";
+    font-size: 32px;
+}
+
+#section-heading-para {
+    font-family: 'ceraprolight';
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+    width: 95%;
+}
+
+/* BUTTON */
+
+#button-ticket-div {
+    text-align: left;
+    margin-left: 5%;
+}
+
+#button-ticket {
+    background-image: linear-gradient(to right, #B8036A , #FC0040);
+    border: none;
+    font-family: "ceraprolight";
+    color: #fff;
+    font-size: 18px;
+    padding: 2%;
+    width: 25%;
+
+    margin-bottom: 50px;
+}
+
+#ticket-img-div {
+    position: absolute;
+    right: 5%;
+}
+
+#ticket-img {
+    width: 80%;
+}
+
 @media screen and (min-width: 1000px) {
     #header-img {
         width: 100%;
@@ -395,6 +445,52 @@ a {
     .main-heading-four-para {
         width: 210px;
     }
+
+    /* SECTION */
+
+    #vertical-spacing {
+        margin-top: 60%;
+    }
+
+    #section-heading-one {
+        font-family: "ceraprobold";
+        font-size: 32px;
+    }
+
+    #section-heading-para {
+        font-family: 'ceraprolight';
+        font-size: 18px;
+        color: rgb(108, 108, 108);
+        width: 33%;
+    }
+
+    #button-ticket-div {
+        text-align: left;
+        margin: 0% 5%;
+        margin-top: -3%;
+    }
+
+    #button-ticket {
+        background-image: linear-gradient(to right, #B8036A , #FC0040);
+        border: none;
+        font-family: "ceraprolight";
+        color: #fff;
+        font-size: 18px;
+        padding: 12px;
+        width: 12%;
+        box-sizing: 0px 0px 2px 2px #ccc;
+    }
+
+    /* TICKET */
+
+    #ticket-img-div {
+        position: absolute;
+        right: 10%;
+    }
+
+    #ticket-img {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -455,6 +551,20 @@ a {
         height: 360px;
         object-fit: cover;
         opacity: 0.6;
+    }
+
+    /* SECTION */
+
+    #section-heading-one {
+        font-family: "ceraprobold";
+        font-size: 32px;
+    }
+
+    #section-heading-para {
+        font-family: 'ceraprolight';
+        font-size: 18px;
+        color: rgb(108, 108, 108);
+        width: 95%;
     }
 }
 
@@ -609,6 +719,50 @@ a {
 
     #main-heading-four {
         display: none;
+    }
+
+    /* SECTION */
+
+    #vertical-spacing {
+        margin-top: 120%;
+    } 
+
+    #section-heading-one {
+        font-family: "ceraprobold";
+        font-size: 32px;
+    }
+
+    #section-heading-para {
+        font-family: 'ceraprolight';
+        font-size: 18px;
+        color: rgb(108, 108, 108);
+        width: 95%;
+    }
+
+    #button-ticket-div {
+        text-align: center;
+        margin-left: 4px;
+    }
+
+    #button-ticket {
+        background-image: linear-gradient(to right, #B8036A , #FC0040);
+        border: none;
+        font-family: "ceraprolight";
+        color: #fff;
+        font-size: 18px;
+        padding: 2%;
+        width: 92%;
+
+        margin-bottom: 50px;
+    }
+
+    #ticket-img-div {
+        position: absolute;
+        left: 4%;
+    }
+
+    #ticket-img {
+        width: 80%;
     }
 
 }
