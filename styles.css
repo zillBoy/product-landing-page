@@ -303,8 +303,61 @@ a {
     top: 40px;
 }
 
-#earth-planet {
+/* SECTION STATS */
+
+#stars-background {
+    background-image: url("https://www.blueorigin.com/assets/photos/news/2020_06_03/large.jpeg");
+    width: 100%;
+}
+
+#stars-background-div {
+    padding: 5%;
+}
+
+
+#section-star-heading {
+    font-family: "ceraprobold";
+    font-size: 32px;
+    color: #fff;
+}
+
+#section-star-subheading {
+    font-family: "ceraprobold";
+    font-size: 22px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    width: 80px;
+}
+
+#section-star-sub-subheading {
+    font-family: "ceraprobold";
+    font-size: 28px;
+    color: #fff;
+}
+
+.section-star-para {
+    color: rgb(230, 228, 228);
+    font-family: "ceraprolight";
+    width: 95%;
+}
+
+/* #earth-planet {
     display: none;
+} */
+
+#earth-planet-para {
+    color: #fff;
+    user-select: none;
+    margin-top: -38px;
+}
+
+#spacestaion-img-div {
+    background-color: #834600;
+}
+
+#spacestaion-img {
+    width: 100%;
+    opacity: 0.6;
 }
 
 @media screen and (min-width: 1000px) {
@@ -557,7 +610,21 @@ a {
         font-family: "ceraproblack";
         text-align: center;
         position: relative;
-        top: 60px;
+        top: 80px;
+        margin-top: 0px;
+    }
+
+    /* SPACE STATION */
+
+    #spacestaion-img-div {
+        width: 60%;
+    }
+
+    #spacestaion-img {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        opacity: 0.6;
     }
 }
 
@@ -863,6 +930,13 @@ a {
         display: none;
     }
 
+    /* SPACE STATION */
+
+    #spacestaion-img {
+        width: 100%;
+        opacity: 0.6;
+    }
+
 }
 
 @media screen and (max-width: 400px) { 
@@ -1058,6 +1132,13 @@ a {
 
     #earth-planet {
         display: none;
+    }
+
+    /* SPACE STATION */
+
+    #spacestaion-img {
+        width: 100%;
+        opacity: 0.6;
     }
 }
 
