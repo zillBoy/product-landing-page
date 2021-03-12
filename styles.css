@@ -488,6 +488,7 @@ a {
 
 #travel-button-div {
     display: flex;
+    margin-bottom: 20px;
 }
 
 #travel-first-button-div {
@@ -521,7 +522,7 @@ a {
 }
 
 #section-travel-second-inner-second-div {
-
+    
 }
 
 #travel-first-img {
@@ -529,6 +530,27 @@ a {
     width: 220px;
     height: 220px;
     object-fit: cover;
+}
+
+/* SPACE SHIP */
+
+#ship-img-div {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    bottom: -40px;
+    z-index: 1;
+}
+
+#ship-img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#section-contacts-inner-div {
+    position: relative;
+    margin-top: 100px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -815,6 +837,12 @@ a {
     }
 
     /* SECTION CONTACT US */
+    
+    #section-contacts-inner-div {
+        position: relative;
+        margin-top: 100px;
+    }
+    
     .section-input {
         display: block;
         width: 100%;
@@ -846,6 +874,22 @@ a {
     #travel-first-img {
         width: 500px;
         height: 400px;
+        object-fit: cover;
+    }
+
+    /* SPACE SHIP */
+
+    #ship-img-div {
+        position: relative;
+        text-align: center;
+        margin-top: 40px;
+        bottom: -40px;
+        z-index: 1;
+    }
+
+    #ship-img {
+        width: 80%;
+        height: 500px;
         object-fit: cover;
     }
 }
