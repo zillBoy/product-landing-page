@@ -445,6 +445,92 @@ a {
     font-size: 18px;
 }
 
+/* TRAVEL */
+
+#section-travel-first-div {
+    margin: 5%;
+}
+
+#section-travel-first-div h2 {
+    font-family: "ceraprobold";
+    font-size: 36px;
+    color: #880F52;
+}
+
+#section-travel-first-div p {
+    font-family: "ceraprolight";
+}
+
+#section-travel-second-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-travel-second-inner-first-div {
+    box-shadow: 0px 0px 2px 2px #ccc;
+    width: 60%;
+}
+
+#travel-inner-first-div {
+    margin: 5%;
+}
+
+#travel-inner-first-div h3 {
+    font-family: "ceraprobold";
+    font-family: 26px;
+    width: 260px;
+}
+
+#travel-inner-first-div p {
+    font-family: "ceraprolight";
+    width: 400px;
+} 
+
+#travel-button-div {
+    display: flex;
+}
+
+#travel-first-button-div {
+    margin-left: 30px;
+}
+
+#travel-first-button {
+    background-image: linear-gradient(to right, #B8036A , #FC0040);
+    border: none;
+    font-family: "ceraprolight";
+    color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    width: 150px;
+    box-sizing: 0px 0px 2px 2px #ccc;
+}
+
+#travel-second-button-div {
+    margin-left: 30px;
+}
+
+#travel-second-button {
+    background-color: #fff;
+    border: 2px solid #FC0040;
+    font-family: "ceraprolight";
+    color: #000;
+    font-size: 18px;
+    padding: 12px;
+    width: 150px;
+    box-sizing: 0px 0px 2px 2px #ccc;
+}
+
+#section-travel-second-inner-second-div {
+
+}
+
+#travel-first-img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
 @media screen and (min-width: 1000px) {
     #header-img {
         width: 100%;
@@ -743,6 +829,24 @@ a {
         height: 900px;
         object-fit: cover;
         opacity: 0.6;
+    }
+
+    /* TRAVEL */
+
+    #section-travel-second-inner-first-div {
+        box-shadow: 0px 0px 2px 2px #ccc;
+        width: 35%;
+        height: 260px;
+    }
+
+    #section-travel-second-inner-second-div {
+
+    }
+
+    #travel-first-img {
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
     }
 }
 
@@ -1074,6 +1178,13 @@ a {
         height: 300px;
     }
 
+    #section-travel {
+        display: none;    
+    }
+
+    #section-travel {
+        display: none;    
+    }
 }
 
 @media screen and (max-width: 400px) { 
@@ -1294,7 +1405,11 @@ a {
     #spacestaion-img {
         width: 100%;
         opacity: 0.6;
-        height: 400px;
+        height: 240px;
+    }
+
+    #section-travel {
+        display: none;    
     }
 }
 
