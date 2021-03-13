@@ -14,10 +14,14 @@
     <header id="header">
         <div id="header-img-div">
             <nav id="nav-bar">
-                <a class="nav-link" href="#">Mars</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Contact Us</a>
+                <ul>
+                    <li><a class="nav-link" href="#header">Mars</a></li>
+                    <li><a class="nav-link" href="#section-main-container">Ticket</a></li>
+                    <li><a class="nav-link" href="#section-contacts">Contact Us</a></li>
+                </ul>
             </nav>
+        </div>
+        <div id="header-img-second-div">
             <img id="header-img" src="https://wallpapercave.com/wp/wp2305575.jpg" alt="mars planet">
             <div id="header-h1-div">
                 <div>
@@ -33,13 +37,19 @@
             </div>
         </div>
 
+
+
         <div>
             <div id="marsbase-img-div">
                 <img id="marsbase-img" src="images/marsbase.png" alt="mars planet">
             </div>
 
-            <div id="base-img-div">
-                <img id="base-img" src="images/base.png" alt="mars planet">
+            <div id="video-div">
+                <!-- <img id="base-img" src="images/base.png" alt="mars planet"> -->
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/D8pnmwOXhoY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </header>
@@ -203,30 +213,33 @@
             </div>
         </section>
 
-        <section id="section-contacts">
-            <div id="section-contacts-img-div">
-                <img id="section-contacts-img" src="./images/spacelight.jpg" alt="spacestation">
-            </div>
-            <div id="section-contacts-div">
-                <div id="section-contacts-inner-div">
-                    <h2 id="section-contacts-header">Contact Us</h2>
-                    <p id="section-contacts-para">Leave your email, we will write to you within 24 hours</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <section id="section-contacts">
+                <div id="section-contacts-img-div">
+                    <img id="section-contacts-img" src="./images/spacelight.jpg" alt="spacestation">
                 </div>
-                <div>
-                    <input class="section-input" type="text" placeholder="Name">
-                    <input class="section-input" type="text" placeholder="Email">
-                    <input class="section-input" type="text" placeholder="Comment">
-                </div>
+                <div id="section-contacts-div">
+                    <div id="section-contacts-inner-div">
+                        <h2 id="section-contacts-header">Contact Us</h2>
+                        <p id="section-contacts-para">Leave your email, we will write to you within 24 hours</p>
+                    </div>
+                    <div>
+                        <input class="section-input" type="text" placeholder="Name">
+                        <input name="email" id="email" class="section-input" type="email" placeholder="Email">
+                        <input class="section-input" type="text" placeholder="Comment">
 
-                <div id="button-contact-div">
-                    <button id="button-contact">Submit</button>
-                </div>
-            </div>
-        </section>
 
+                    </div>
+
+                    <div id="button-contact-div">
+                        <input type="submit" id="submit">
+                    </div>
+                </div>
+            </section>
+        </form>
     </main>
 
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

@@ -13,13 +13,27 @@ body {
     padding: 0;
 }
 
+li {
+    display: inline;
+}
+
 a {
     text-decoration: none;
 }
 
 #nav-bar {
+    position: fixed;
     background-color: #000;
-    padding: 20px;
+    padding: 5px;
+    z-index: 7;
+    top: 0;
+    width: 100%;
+}
+
+#header-img-div {
+  position: fixed;
+  top: 0;
+  z-index: 7;
 }
 
 .nav-link {
@@ -46,6 +60,10 @@ a {
 /* IMAGE */
 
 #header-img-div {
+    background-image: linear-gradient(to right, #B8036A , #FC0040);
+}
+
+#header-img-second-div {
     background-image: linear-gradient(to right, #B8036A , #FC0040);
 }
 
@@ -99,12 +117,12 @@ a {
 /* BASE  */
 /* ----------------------------------------------- */
 
-#base-img-div {
+#video-div {
     text-align: center;
     z-index: 5;
 }
 
-#base-img {
+#video {
     width: 60%;
     position: relative;
     top: -120px;
@@ -266,12 +284,12 @@ a {
     margin-bottom: 50px;
 }
 
-#button-contact-div {
+#submit-div {
     text-align: left;
     /* margin-left: 5%; */
 }
 
-#button-contact {
+#submit {
     background-image: linear-gradient(to right, #B8036A , #FC0040);
     border: none;
     font-family: "ceraprolight";
@@ -759,12 +777,12 @@ a {
         box-sizing: 0px 0px 2px 2px #ccc;
     }
 
-    #button-contact-div {
+    #submit-div {
         text-align: left;
 
     }
 
-    #button-contact {
+    #submit {
         background-image: linear-gradient(to right, #B8036A , #FC0040);
         border: none;
         font-family: "ceraprolight";
@@ -1003,7 +1021,7 @@ a {
 
     /* BASE */
 
-    #base-img {
+    #video {
         width: 90%;
         position: absolute;
         top: 70%;
@@ -1157,13 +1175,13 @@ a {
         margin-bottom: 50px;
     }
 
-    #button-contact-div {
+    #submit-div {
         text-align: center;
         margin-left: -6px;
         margin-top: 20px;
     }
 
-    #button-contact {
+    #submit {
         background-image: linear-gradient(to right, #B8036A , #FC0040);
         border: none;
         font-family: "ceraprolight";
@@ -1235,7 +1253,7 @@ a {
     
     /* BASE */
     
-    #base-img {
+    #video {
         width: 90%;
         position: absolute;
         top: 80%;
@@ -1387,13 +1405,13 @@ a {
         margin-bottom: 50px;
     }
 
-    #button-contact-div {
+    #submit-div {
         text-align: center;
         margin-left: -6px;
         margin-top: 20px;
     }
 
-    #button-contact {
+    #submit {
         background-image: linear-gradient(to right, #B8036A , #FC0040);
         border: none;
         font-family: "ceraprolight";
